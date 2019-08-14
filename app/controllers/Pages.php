@@ -11,16 +11,17 @@
     
     public function index(){
 
-        $feat_pro = $this->listingModel->getFeaturedProperty();
-         $pro_pictures = $this->listingModel->GetProertyPics();
+        // $feat_pro = $this->listingModel->getFeaturedProperty();
+        //  $pro_pictures = $this->listingModel->GetProertyPics();
 
               $data = [
-            'feat_pro' => $feat_pro,
-             'pro_pictures' => $pro_pictures
+            // 'feat_pro' => $feat_pro,
+            //  'pro_pictures' => $pro_pictures
               ];
      
       $this->view('pages/index', $data);
     }
+
 
     public function about(){
       $data = [
@@ -29,6 +30,17 @@
       ];
 
       $this->view('pages/about', $data);
+    }
+
+
+
+     public function contact(){
+      $data = [
+        'title' => 'About Us',
+        'description' => 'App to share posts with other users'
+      ];
+
+      $this->view('pages/contact', $data);
     }
 
 

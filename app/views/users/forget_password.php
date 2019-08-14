@@ -1,80 +1,74 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
 
-<!-- Titlebar
-================================================== -->
-<div id="titlebar">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-
-				<h2>Forget Password</h2>
-				
-				<!-- Breadcrumbs -->
-				<nav id="breadcrumbs">
-					<ul>
-						<li><a href="index.php">Home</a></li>
-						<li>Log In & Register</li>
-					</ul>
-				</nav>
-
-			</div>
-		</div>
-	</div>
-</div>
-
-
-<!-- Contact
-================================================== -->
-
-<!-- Container -->
-<div class="container">
-
-	<div class="row">
-	<div class="col-md-4 col-md-offset-4">
-
-	<!--Tab -->
-	<div class="my-account style-1 margin-top-5 margin-bottom-40">
-
-		<ul class="tabs-nav">
-			 <?php flash('register_success'); ?>
-
-        <center><p style=" color: red;"><?php echo $data['email_err']; ?></p>
-					</p></center>
-		</ul>
-
-		<div class="tabs-container alt">
-
-			<!-- Login -->
-			<div class="tab-content" id="tab1" style="display: none;">
-				<form method="post" action="<?php echo URLROOT; ?>/users/forget_password" class="login">
-
-					<p class="form-row form-row-wide">
-						<label for="username">Enter Your Email:
-							
-							<i class="im im-icon-Mail"></i>
-							<input type="email" required="" class="input-text" name="email" />
-						</label>
-					<p class="form-row">
-						<input type="submit"  class="button border margin-top-10" name="login" value="Submit" />	
-					</p>
-
-					<p class="lost_password">
-						You remember your password? <a href="<?php echo URLROOT; ?>/users/login">Login</a>
-					</p>
-				</form>
-			</div>
-
-			
-		</div>
-	</div>
-
-
-
-	</div>
-	</div>
-
-</div>
-<!-- Container / End -->
-
+<!-- Breadcrumb -->
+    <div class="breadcrumb-area" data-bgimage="assets/images/bg/breadcrumb-bg-01.jpg" data-black-overlay="4">
+        <div class="container">
+            <div class="in-breadcrumb">
+                <div class="row">
+                    <div class="col">
+                        <h3>Forget Password </h3>
+                        <!-- breadcrumb-list start -->
+                        <ul class="breadcrumb-list">
+                            <li class="breadcrumb-item"><a href="">Home</a></li>
+                            <li class="breadcrumb-item"><a href="">login</a></li>
+                            <li class="breadcrumb-item active">Forget Password </li>
+                        </ul>
+                        <!-- breadcrumb-list end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Breadcrumb -->
+    
+    
+    
+    <!-- Page Conttent -->
+    <main class="page-content">
+       
+        <div class="register-page section-ptb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 ml-auto mr-auto">
+                        <div class="login-register-wrapper">
+                            <!-- login-register-tab-list start -->
+                            <div class="login-register-tab-list">
+                                <a class="active" data-toggle="tab" href="#lg1">
+                                    <h4> Forget Password </h4>
+                                </a>
+                                
+                            </div>
+                            <!-- login-register-tab-list end -->
+                            <div class="tab-content">
+                                <div id="lg1" class="tab-pane active">
+                                    <div class="login-form-container">
+                                        <div class="login-register-form">
+                                            <form action="#" method="post">
+                                                <div class="login-input-box">
+                                                    <input type="email" name="user-name" placeholder="Email">
+                                                  
+                                                </div>
+                                                <div class="button-box">
+                                                    <div class="login-toggle-btn">
+                                                       
+                                                        <a href="<?php echo URLROOT; ?>users/login">You remember your password? Login</a>
+                                                    </div>
+                                                    <div class="button-box">
+                                                        <button class="login-btn btn" type="submit"><span>Submit</span></button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
 
 <?php require APPROOT . '/views/inc/footer.php'; ?>

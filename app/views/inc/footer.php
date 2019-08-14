@@ -9,7 +9,7 @@
                     <div class="col-lg-4 col-md-6 mt--60">
                         <div class="footer-single-block">    
                             <div class="footer-logo">
-                                <a href="index.html"><img src="assets/images/logo/logo-2.png" alt=""></a>
+                                <a href="index.html"><img src="<?php echo URLROOT; ?>assets/images/logo/logo-2.png" alt=""></a>
                             </div>
                             <p class="footer-dec">If you are going to use a passage LorIsum, you anythirassing hidden in the middle 
                             of text. Iators on the Internet tend to.</p>
@@ -42,7 +42,7 @@
                             <ul class="footer-courses">
                                 <li>    
                                     <div class="courses-image">
-                                        <a href="#"><img src="assets/images/blog/small-tham/blog-01.jpg" alt=""></a>
+                                        <a href="#"><img src="<?php echo URLROOT; ?>assets/images/blog/small-tham/blog-01.jpg" alt=""></a>
                                     </div>
                                     <div class="courses-nifo">
                                         <h5><a href="#">Department of
@@ -52,7 +52,7 @@
                                 </li>
                                 <li>    
                                     <div class="courses-image">
-                                        <a href="#"><img src="assets/images/blog/small-tham/blog-02.jpg" alt=""></a>
+                                        <a href="#"><img src="<?php echo URLROOT; ?>assets/images/blog/small-tham/blog-02.jpg" alt=""></a>
                                     </div>
                                     <div class="courses-nifo">
                                         <h5><a href="#">Combined  With

@@ -9,7 +9,7 @@
            
             <div class="singleSlide" data-black-overlay="3">
                 <div class="itemBg">
-                    <img src="assets/images/slider/background-image-1.jpg" alt="">
+                    <img src="<?php echo URLROOT; ?>assets/images/slider/background-image-1.jpg" alt="">
                 </div>
                 <!-- Hero Content One Start -->
                 <div class="container">
@@ -29,7 +29,7 @@
             
             <div class="singleSlide" data-black-overlay="3">
                 <div class="itemBg">
-                    <img src="assets/images/slider/background-image-2.jpg" alt="">
+                    <img src="<?php echo URLROOT; ?>assets/images/slider/background-image-2.jpg" alt="">
                 </div>
                 <!-- Hero Content One Start -->
                 <div class="container">
@@ -49,7 +49,7 @@
             
             <div class="singleSlide" data-black-overlay="3">
                 <div class="itemBg">
-                    <img src="assets/images/slider/background-image-3.jpg" alt="">
+                    <img src="<?php echo URLROOT; ?>assets/images/slider/background-image-3.jpg" alt="">
                 </div>
                 <!-- Hero Content One Start -->
                 <div class="container">
@@ -96,7 +96,7 @@
                             <div class="single-course-categories malachite">
                                 <div class="item-inner">
                                     <div class="cours-icon">
-                                        <img src="assets/images/icon/icon-01.png" alt="">
+                                        <img src="<?php echo URLROOT; ?>assets/images/icon/icon-01.png" alt="">
                                     </div>
                                     <div class="cours-title">
                                         <h5>Photoshop</h5>
@@ -110,7 +110,7 @@
                             <div class="single-course-categories sunglow">
                                 <div class="item-inner">
                                     <div class="cours-icon">
-                                        <img src="assets/images/icon/icon-02.png" alt="">
+                                        <img src="<?php echo URLROOT; ?>assets/images/icon/icon-02.png" alt="">
                                     </div>
                                     <div class="cours-title">
                                         <h5>Illustration</h5>
@@ -124,7 +124,7 @@
                             <div class="single-course-categories mariner">
                                 <div class="item-inner">
                                     <div class="cours-icon">
-                                        <img src="assets/images/icon/icon-03.png" alt="">
+                                        <img src="<?php echo URLROOT; ?>assets/images/icon/icon-03.png" alt="">
                                     </div>
                                     <div class="cours-title">
                                         <h5>Photography</h5>
@@ -138,7 +138,7 @@
                             <div class="single-course-categories brilliantrose">
                                 <div class="item-inner">
                                     <div class="cours-icon">
-                                        <img src="assets/images/icon/icon-04.png" alt="">
+                                        <img src="<?php echo URLROOT; ?>assets/images/icon/icon-04.png" alt="">
                                     </div>
                                     <div class="cours-title">
                                         <h5>HTML & CSS</h5>
@@ -152,7 +152,7 @@
                             <div class="single-course-categories shakespeare">
                                 <div class="item-inner">
                                     <div class="cours-icon">
-                                        <img src="assets/images/icon/icon-05.png" alt="">
+                                        <img src="<?php echo URLROOT; ?>assets/images/icon/icon-05.png" alt="">
                                     </div>
                                     <div class="cours-title">
                                         <h5>Development</h5>
@@ -166,7 +166,7 @@
                             <div class="single-course-categories deyork">
                                 <div class="item-inner">
                                     <div class="cours-icon">
-                                        <img src="assets/images/icon/icon-06.png" alt="">
+                                        <img src="<?php echo URLROOT; ?>assets/images/icon/icon-06.png" alt="">
                                     </div>
                                     <div class="cours-title">
                                         <h5>Flim & Media</h5>
@@ -204,7 +204,7 @@
                     <!-- single-choose-service -->
                     <div class="single-choose-service text-center mt--30">
                         <div class="service-icon">
-                            <img src="assets/images/icon/choos-01.png" alt="">
+                            <img src="<?php echo URLROOT; ?>assets/images/icon/choos-01.png" alt="">
                         </div>
                         <div class="service-content">
                             <h4>Apply Online</h4>
@@ -218,7 +218,7 @@
                     <!-- single-choose-service -->
                     <div class="single-choose-service text-center mt--30">
                         <div class="service-icon">
-                            <img src="assets/images/icon/choos-02.png" alt="">
+                            <img src="<?php echo URLROOT; ?>assets/images/icon/choos-02.png" alt="">
                         </div>
                         <div class="service-content">
                             <h4>Superfast Support</h4>
@@ -232,7 +232,7 @@
                     <!-- single-choose-service -->
                     <div class="single-choose-service text-center mt--30">
                         <div class="service-icon">
-                            <img src="assets/images/icon/choos-03.png" alt="">
+                            <img src="<?php echo URLROOT; ?>assets/images/icon/choos-03.png" alt="">
                         </div>
                         <div class="service-content">
                             <h4>Certification</h4>
@@ -265,7 +265,7 @@
                     <!-- single-courses -->
                     <div class="single-popular-courses mt--30">
                         <div class="popular-courses-image">
-                            <a href="#"><img src="assets/images/courses/courses-01.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo URLROOT; ?>assets/images/courses/courses-01.jpg" alt=""></a>
                         </div>
                         <div class="popular-courses-contnet">
                             <h5>Department of Science.</h5>
@@ -287,7 +287,7 @@
                     <!-- single-courses -->
                     <div class="single-popular-courses mt--30">
                         <div class="popular-courses-image">
-                            <a href="#"><img src="assets/images/courses/courses-02.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo URLROOT; ?>assets/images/courses/courses-02.jpg" alt=""></a>
                         </div>
                         <div class="popular-courses-contnet">
                             <h5>Banking Courses.</h5>
@@ -309,7 +309,7 @@
                     <!-- single-courses -->
                     <div class="single-popular-courses mt--30">
                         <div class="popular-courses-image">
-                            <a href="#"><img src="assets/images/courses/courses-03.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo URLROOT; ?>assets/images/courses/courses-03.jpg" alt=""></a>
                         </div>
                         <div class="popular-courses-contnet">
                             <h5>Combined with a Handful.</h5>
@@ -331,7 +331,7 @@
                     <!-- single-courses -->
                     <div class="single-popular-courses mt--30">
                         <div class="popular-courses-image">
-                            <a href="#"><img src="assets/images/courses/courses-04.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo URLROOT; ?>assets/images/courses/courses-04.jpg" alt=""></a>
                         </div>
                         <div class="popular-courses-contnet">
                             <h5>Department of Science.</h5>
@@ -353,7 +353,7 @@
                     <!-- single-courses -->
                     <div class="single-popular-courses mt--30">
                         <div class="popular-courses-image">
-                            <a href="#"><img src="assets/images/courses/courses-05.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo URLROOT; ?>assets/images/courses/courses-05.jpg" alt=""></a>
                         </div>
                         <div class="popular-courses-contnet">
                             <h5>Banking Courses.</h5>
@@ -375,7 +375,7 @@
                     <!-- single-courses -->
                     <div class="single-popular-courses mt--30">
                         <div class="popular-courses-image">
-                            <a href="#"><img src="assets/images/courses/courses-06.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo URLROOT; ?>assets/images/courses/courses-06.jpg" alt=""></a>
                         </div>
                         <div class="popular-courses-contnet">
                             <h5>Combined with a Handful.</h5>
@@ -434,9 +434,9 @@
                     <!-- single-courses -->
                     <div class="single-our-blog mt--30">
                         <div class="our-blog-image">
-                            <a href="blog-details.html"><img src="assets/images/blog/blog-image-01.jpg" alt=""></a>
+                            <a href="blog-details.html"><img src="<?php echo URLROOT; ?>assets/images/blog/blog-image-01.jpg" alt=""></a>
                             <span class="in-our-blog-icon">
-                                <img src="assets/images/icon/our-blog-01.png" alt="">
+                                <img src="<?php echo URLROOT; ?>assets/images/icon/our-blog-01.png" alt="">
                             </span>
                         </div>
                         <div class="our-blog-contnet">
@@ -460,9 +460,9 @@
                     <!-- single-courses -->
                     <div class="single-our-blog mt--30">
                         <div class="our-blog-image">
-                            <a href="blog-details.html"><img src="assets/images/blog/blog-image-02.jpg" alt=""></a>
+                            <a href="blog-details.html"><img src="<?php echo URLROOT; ?>assets/images/blog/blog-image-02.jpg" alt=""></a>
                             <span class="in-our-blog-icon">
-                                <img src="assets/images/icon/our-blog-01.png" alt="">
+                                <img src="<?php echo URLROOT; ?>assets/images/icon/our-blog-01.png" alt="">
                             </span>
                         </div>
                         <div class="our-blog-contnet">
@@ -486,9 +486,9 @@
                     <!-- single-courses -->
                     <div class="single-our-blog mt--30">
                         <div class="our-blog-image">
-                            <a href="blog-details.html"><img src="assets/images/blog/blog-image-03.jpg" alt=""></a>
+                            <a href="blog-details.html"><img src="<?php echo URLROOT; ?>assets/images/blog/blog-image-03.jpg" alt=""></a>
                             <span class="in-our-blog-icon">
-                                <img src="assets/images/icon/our-blog-01.png" alt="">
+                                <img src="<?php echo URLROOT; ?>assets/images/icon/our-blog-01.png" alt="">
                             </span>
                         </div>
                         <div class="our-blog-contnet">
@@ -595,7 +595,7 @@
                         <!-- testimonial-wrap -->
                         <div class="testimonial-wrap text-center">
                             <div class="testimonial-image">
-                                <img src="assets/images/testimonial/testimonial-author-2.png" alt="">
+                                <img src="<?php echo URLROOT; ?>assets/images/testimonial/testimonial-author-2.png" alt="">
                             </div>
                             <div class="testimonial-info">
                                 <div class="autor-info">
@@ -612,7 +612,7 @@
                         <!-- testimonial-wrap -->
                         <div class="testimonial-wrap text-center">
                             <div class="testimonial-image">
-                                <img src="assets/images/testimonial/testimonial-author-2.png" alt="">
+                                <img src="<?php echo URLROOT; ?>assets/images/testimonial/testimonial-author-2.png" alt="">
                             </div>
                             <div class="testimonial-info">
                                 <div class="autor-info">
@@ -629,7 +629,7 @@
                         <!-- testimonial-wrap -->
                         <div class="testimonial-wrap text-center">
                             <div class="testimonial-image">
-                                <img src="assets/images/testimonial/testimonial-author-1.png" alt="">
+                                <img src="<?php echo URLROOT; ?>assets/images/testimonial/testimonial-author-1.png" alt="">
                             </div>
                             <div class="testimonial-info">
                                 <div class="autor-info">

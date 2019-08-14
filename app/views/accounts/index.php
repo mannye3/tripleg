@@ -1,176 +1,252 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
 
+    
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-area" data-bgimage="assets/images/bg/breadcrumb-bg-01.jpg" data-black-overlay="4">
+        <div class="container">
+            <div class="in-breadcrumb">
+                <div class="row">
+                    <div class="col">
+                        <h3>My Account</h3>
+                        <!-- breadcrumb-list start -->
+                        <ul class="breadcrumb-list">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active">My Account</li>
+                        </ul>
+                        <!-- breadcrumb-list end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Breadcrumb -->
+    
+    
+    
+    <!-- Page Conttent -->
+    <main class="page-content section-ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="account-dashboard">
+                        <div class="dashboard-upper-info">
+                           <div class="row align-items-center no-gutters">
+                               <div class="col-lg-3 col-md-12">
+                                   <div class="d-single-info">
+                                       <p class="user-name">Hello <span>Yourmail@info</span></p>
+                                       <p>(not yourmail@info? <a href="#">Log Out</a>)</p>
+                                   </div>
+                               </div>
+                               <div class="col-lg-4 col-md-12">
+                                   <div class="d-single-info">
+                                       <p>Need Assistance? Customer service at.</p>
+                                       <p>admin@devitems.com.</p>
+                                   </div>
+                               </div>
+                               <div class="col-lg-3 col-md-12">
+                                   <div class="d-single-info">
+                                       <p>E-mail them at </p>
+                                       <p>support@yoursite.com</p>
+                                   </div>
+                               </div>
+                               <div class="col-lg-2 col-md-12">
+                                   <div class="d-single-info text-lg-center">
+                                       <a href="cart.html" class="view-cart"><i class="fa fa-cart-plus"></i>view cart</a>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-2">
+                                <!-- Nav tabs -->
+                                <ul role="tablist" class="nav flex-column dashboard-list">
+                                    <li><a href="#dashboard" data-toggle="tab" class="nav-link active">Dashboard</a></li>
+                                    <li> <a href="#orders" data-toggle="tab" class="nav-link">Orders</a></li>
+                                    <li><a href="#downloads" data-toggle="tab" class="nav-link">Downloads</a></li>
+                                    <li><a href="#address" data-toggle="tab" class="nav-link">Addresses</a></li>
+                                    <li><a href="#account-details" data-toggle="tab" class="nav-link">Account details</a></li>
+                                    <li><a href="login-register.html" class="nav-link">logout</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12 col-lg-10">
+                                <!-- Tab panes -->
+                                <div class="tab-content dashboard-content">
+                                    <div class="tab-pane active" id="dashboard">
+                                         <div class="row">
 
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- single-courses -->
+                        <div class="single-popular-courses mt--30">
+                            <div class="popular-courses-image">
+                                <a href="#"><img src="assets/images/courses/courses-01.jpg" alt=""></a>
+                            </div>
+                            <div class="popular-courses-contnet">
+                                <h5>Department of Science.</h5>
+                               
+                                <p>Contrary to popular belief, Lorem Ipsum isnotimply random text..</p>
+                                <div class="button-block">
+                                    <a href="course-details.html" class="botton-border">apply now</a>
+                                </div>
+                            </div>
+                        </div><!--// single-courses -->
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- single-courses -->
+                        <div class="single-popular-courses mt--30">
+                            <div class="popular-courses-image">
+                                <a href="#"><img src="assets/images/courses/courses-02.jpg" alt=""></a>
+                            </div>
+                            <div class="popular-courses-contnet">
+                                <h5>Banking Courses.</h5>
+                               
+                                <p>Contrary to popular belief, Lorem Ipsum isnotimply random text..</p>
+                                <div class="button-block">
+                                    <a href="course-details.html" class="botton-border">apply now</a>
+                                </div>
+                            </div>
+                        </div><!--// single-courses -->
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- single-courses -->
+                        <div class="single-popular-courses mt--30">
+                            <div class="popular-courses-image">
+                                <a href="#"><img src="assets/images/courses/courses-03.jpg" alt=""></a>
+                            </div>
+                            <div class="popular-courses-contnet">
+                                <h5>Combined with a Handful.</h5>
+                                
+                                <p>Contrary to popular belief, Lorem Ipsum isnotimply random text..</p>
+                                <div class="button-block">
+                                    <a href="course-details.html" class="botton-border">apply now</a>
+                                </div>
+                            </div>
+                        </div><!--// single-courses -->
+                    </div>
 
-
-
-<!-- Titlebar
-================================================== -->
-<div id="titlebar">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-
-				<h2>My Profile</h2>
-
-				<!-- Breadcrumbs -->
-				<nav id="breadcrumbs">
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li>My Profile</li>
-					</ul>
-				</nav>
-
-			</div>
-		</div>
-	</div>
-</div>
-
-
-<!-- Content
-================================================== -->
-<div class="container">
-	<div class="row">
-
-
-		<!-- USER NAVBAR -->
-		<?php require APPROOT . '/views/inc/user_nav.php'; ?>
-
-		<div class="col-md-8">
-			<div class="row">
-
-
-				<div class="col-md-8 my-profile">
-					<?php flash('post_message'); ?>
-					
-					<h4 class="margin-top-0 margin-bottom-30">My Account</h4>
-					<a href="<?php echo URLROOT; ?>/accounts/edit_profile"><p style="float: right; size: 10px;"><i class="fa fa-edit"></i> Edit Profile</p></a>
-
-					<label>Your Name</label>
-					<input value="<?php echo $_SESSION['user_name']; ?>" name="name" readonly>
-
-					<label>Phone</label>
-					<input value="<?php echo $_SESSION['user_phone']; ?>" readonly>
-
-					<label>Email</label>
-					<input value="<?php echo $_SESSION['user_email']; ?>" readonly>
-
-
-					<label>Email</label>
-					<input value="<?php echo $_SESSION['user_image']; ?>" readonly>
-
-
-					<h4 class="margin-top-50 margin-bottom-25">About Me</h4>
-					<textarea name="about" id="about" cols="30" readonly rows="10">Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper</textarea>
-				
-
-					<!-- <h4 class="margin-top-50 margin-bottom-0">Social</h4>
-
-					<label><i class="fa fa-twitter"></i> Twitter</label>
-					<input value="https://www.twitter.com/" type="text">
-
-					<label><i class="fa fa-facebook-square"></i> Facebook</label>
-					<input value="https://www.facebook.com/" type="text">
-
-					<label><i class="fa fa-google-plus"></i> Google+</label>
-					<input value="https://www.google.com/" type="text">
-
-					<label><i class="fa fa-linkedin"></i> Linkedin</label>
-					<input value="https://www.linkedin.com/" type="text">
- -->
-
-					<a href="<?php echo URLROOT; ?>/accounts/edit_profile"><button class="button margin-top-20 margin-bottom-20"><i class="fa fa-edit"> Edit Profile</i></button></a>
-				</div>
-				
-
-
-				<div class="col-md-4">
-					<!-- Avatar -->
-					<div class="edit-profile-photo">
-						<?php
-					$image	=	$_SESSION['user_image']; 
-				  if ($image ==""){
-				   echo '<img src="'.URLROOT.'/images/user.jpg" />';
-				   }  
-
-
-				   elseif ($image !=="") {
-
-				   	 echo '<img style="height: 120px; width: 120px;" src="'.URLROOT.'/profile_pic/'.$image.'">';
-				     	
-				     }  
-
-
-				?>
-						
-						
- 				 </div>
-						<div class="change-photo-btn">
-							<div class="photoUpload">
-								<span id="uploaded_image"></span>
-							    <span><i class="fa fa-upload"></i> Upload Photo</span>
-							    <center><input type="file" id="file" class="upload" /></center>
-							   
-							</div>
-						</div>
-					</div>
-
-
-				
-
-
-			</div>
-		</div>
-
-	</div>
-</div>
-
-
-
-<script>
-$(document).ready(function(){
- $(document).on('change', '#file', function(){
-  var name = document.getElementById("file").files[0].name;
-  var form_data = new FormData();
-  var ext = name.split('.').pop().toLowerCase();
-  if(jQuery.inArray(ext, ['gif','png','jpg','jpeg']) == -1) 
-  {
-   alert("Invalid Image File");
-  }
-  var oFReader = new FileReader();
-  oFReader.readAsDataURL(document.getElementById("file").files[0]);
-  var f = document.getElementById("file").files[0];
-  var fsize = f.size||f.fileSize;
-  if(fsize > 2000000)
-  {
-   alert("Image File Size is very big");
-  }
-  else
-  {
-   form_data.append("file", document.getElementById('file').files[0]);
-   $.ajax({
-    url:"<?php echo URLROOT; ?>/accounts/profile_pic",
-    method:"POST",
-    data: form_data,
-    contentType: false,
-    cache: false,
-    processData: false,
-    beforeSend:function(){
-     $('#uploaded_image').html("<label class='text-success'>Image Uploading...</label>");
-    },   
-    success:function(data)
-    {
-     $('#uploaded_image').html(data);
-    }
-   });
-  }
- });
-});
-</script>
-
-
-
+                    
+                </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="orders">
+                                        <h3>Orders</h3>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Order</th>
+                                                        <th>Date</th>
+                                                        <th>Status</th>
+                                                        <th>Total</th>
+                                                        <th>Actions</th>	 	 	 	
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>May 10, 2018</td>
+                                                        <td>Processing</td>
+                                                        <td>$25.00 for 1 item </td>
+                                                        <td><a href="cart.html" class="view">view</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>May 10, 2018</td>
+                                                        <td>Processing</td>
+                                                        <td>$17.00 for 1 item </td>
+                                                        <td><a href="cart.html" class="view">view</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="downloads">
+                                        <h3>Downloads</h3>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Product</th>
+                                                        <th>Downloads</th>
+                                                        <th>Expires</th>
+                                                        <th>Download</th>	 	 	 	
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Haven - Free Real Estate PSD Template</td>
+                                                        <td>May 10, 2018</td>
+                                                        <td>never</td>
+                                                        <td><a href="#" class="view">Click Here To Download Your File</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Nevara - ecommerce html template</td>
+                                                        <td>Sep 11, 2018</td>
+                                                        <td>never</td>
+                                                        <td><a href="#" class="view">Click Here To Download Your File</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="address">
+                                       <p>The following addresses will be used on the checkout page by default.</p>
+                                        <h4 class="billing-address">Billing address</h4>
+                                        <a href="#" class="view">edit</a>
+                                        <p class="biller-name">Johan Don</p>
+                                        <p>Bangladesh</p>   
+                                    </div>
+                                    <div class="tab-pane fade" id="account-details">
+                                        <h3>Account details </h3>
+                                        <div class="login">
+                                            <div class="login-form-container">
+                                                <div class="account-login-form">
+                                                    <form action="#">
+                                                        <p>Already have an account? <a href="#">Log in instead!</a></p>
+                                                        <label>Social title</label>
+                                                        <div class="input-radio">
+                                                            <span class="custom-radio"><input type="radio" value="1" name="id_gender"> Mr.</span>
+                                                            <span class="custom-radio"><input type="radio" value="1" name="id_gender"> Mrs.</span>
+                                                        </div>
+                                                        <div class="account-input-box">
+                                                            <label>First Name</label>
+                                                            <input type="text" name="first-name">
+                                                            <label>Last Name</label>
+                                                            <input type="text" name="last-name">
+                                                            <label>Email</label>
+                                                            <input type="text" name="email-name">
+                                                            <label>Password</label>
+                                                            <input type="password" name="user-password">
+                                                            <label>Birthdate</label>
+                                                            <input type="text" placeholder="MM/DD/YYYY" value="" name="birthday">
+                                                        </div>
+                                                        <div class="example">
+                                                          (E.g.: 05/31/1970)
+                                                        </div>
+                                                        <div class="custom-checkbox">
+                                                            <input type="checkbox" value="1" name="optin">
+                                                            <label>Receive offers from our partners</label>
+                                                        </div>
+                                                        <div class="custom-checkbox">
+                                                            <input type="checkbox" value="1" name="newsletter">
+                                                            <label>Sign up for our newsletter<br><em>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</em></label>
+                                                        </div>
+                                                        <div class="button-box">
+                                                            <button class="btn default-btn" type="submit">Save</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--// Page Conttent -->
 
 <?php require APPROOT . '/views/inc/footer.php'; ?>
