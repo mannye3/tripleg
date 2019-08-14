@@ -57,17 +57,7 @@
                            </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12 col-lg-2">
-                                <!-- Nav tabs -->
-                                <ul role="tablist" class="nav flex-column dashboard-list">
-                                    <li><a href="#dashboard" data-toggle="tab" class="nav-link active">Dashboard</a></li>
-                                    <li> <a href="#orders" data-toggle="tab" class="nav-link">Orders</a></li>
-                                    <li><a href="#downloads" data-toggle="tab" class="nav-link">Downloads</a></li>
-                                    <li><a href="#address" data-toggle="tab" class="nav-link">Addresses</a></li>
-                                    <li><a href="#account-details" data-toggle="tab" class="nav-link">Account details</a></li>
-                                    <li><a href="login-register.html" class="nav-link">logout</a></li>
-                                </ul>
-                            </div>
+                            <?php require APPROOT . '/views/inc/user_nav.php'; ?>
                             <div class="col-md-12 col-lg-10">
                                 <!-- Tab panes -->
                                 <div class="tab-content dashboard-content">
@@ -128,7 +118,7 @@
                     
                 </div>
                                     </div>
-                                    <div class="tab-pane fade" id="orders">
+                                    <div class="tab-pane fade" id="price-list">
                                         <h3>Orders</h3>
                                         <div class="table-responsive">
                                             <table class="table">
@@ -160,42 +150,8 @@
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="downloads">
-                                        <h3>Downloads</h3>
-                                        <div class="table-responsive">
-                                            <table class="table">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Product</th>
-                                                        <th>Downloads</th>
-                                                        <th>Expires</th>
-                                                        <th>Download</th>	 	 	 	
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Haven - Free Real Estate PSD Template</td>
-                                                        <td>May 10, 2018</td>
-                                                        <td>never</td>
-                                                        <td><a href="#" class="view">Click Here To Download Your File</a></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Nevara - ecommerce html template</td>
-                                                        <td>Sep 11, 2018</td>
-                                                        <td>never</td>
-                                                        <td><a href="#" class="view">Click Here To Download Your File</a></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" id="address">
-                                       <p>The following addresses will be used on the checkout page by default.</p>
-                                        <h4 class="billing-address">Billing address</h4>
-                                        <a href="#" class="view">edit</a>
-                                        <p class="biller-name">Johan Don</p>
-                                        <p>Bangladesh</p>   
-                                    </div>
+                                   
+                                    
                                     <div class="tab-pane fade" id="account-details">
                                         <h3>Account details </h3>
                                         <div class="login">
@@ -231,6 +187,32 @@
                                                             <input type="checkbox" value="1" name="newsletter">
                                                             <label>Sign up for our newsletter<br><em>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</em></label>
                                                         </div>
+                                                        <div class="button-box">
+                                                            <button class="btn default-btn" type="submit">Save</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="change-password">
+                                        <h3>Change Password </h3>
+                                        <div class="login">
+                                            <div class="login-form-container">
+                                                <div class="account-login-form">
+                                                    <form action="#">
+                                                        
+                                                        
+                                                        <div class="account-input-box">
+                                                            <label>Current Password</label>
+                                                            <input type="password" name="first-name">
+                                                            <label>New Password</label>
+                                                            <input type="password" name="last-name">
+                                                            <label>Confirm Password</label>
+                                                            <input type="password" name="email-name">
+                                                            
+                                                        </div>
+                                                       
                                                         <div class="button-box">
                                                             <button class="btn default-btn" type="submit">Save</button>
                                                         </div>

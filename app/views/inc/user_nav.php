@@ -1,4 +1,4 @@
-<div class="col-md-4">
+<!-- <div class="col-md-4">
 			<div class="sidebar left">
 
 				<div class="my-account-nav-container">
@@ -23,4 +23,17 @@
 				</div>
 
 			</div>
-		</div>
+		</div> -->
+
+
+		<div class="col-md-12 col-lg-2">
+                                <!-- Nav tabs -->
+                                <ul role="tablist" class="nav flex-column dashboard-list">
+                                    <li><a href="#dashboard" data-toggle="tab" class="nav-link active">Dashboard</a></li>
+                                    <li><a href="#account-details" data-toggle="tab" class="nav-link">Account details</a></li>
+                                    <li><a href="#change-password" data-toggle="tab" class="nav-link">Change Password</a></li>
+                                    <li> <a href="#price-list" data-toggle="tab" class="nav-link">Price List</a></li>
+                                   
+                                    <li><a href="<?php echo URLROOT; ?>/users/logout" class="nav-link">logout</a></li>
+                                </ul>
+                            </div>
